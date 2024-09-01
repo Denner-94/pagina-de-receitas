@@ -1,7 +1,7 @@
 # Pagina de receitas
 
 <div>
-    <img align="center" scr="#" alt="imagem ilustrativa da pagina de receitas feita pelo frontend mentor">
+    <img align="center" scr="assets/img/capa-do-readme.md.png" alt="imagem ilustrativa da pagina de receitas feita pelo frontend mentor">
 </div>
 
 - [Desafio do Frontend Mentor](https://www.frontendmentor.io)
