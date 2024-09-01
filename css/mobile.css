@@ -1,0 +1,151 @@
+@charset "UTF-8";
+@font-face {
+    font-family: principal;
+    src: url(../assets/fonts/young-serif/) format(open-type);
+}
+@font-face {
+    font-family: texto;
+    src: url(../assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+/* 
+CONFIGURAÇÕES GERAIS 
+*/
+:root{
+    --branco:       #fbfaff;
+    --castanho-800: #854632;
+    --rosa-800:     #7b284f;
+    --rosa-50:      #fff5fa;
+    --pedra-100:    #f3e6d8;
+    --pedra-150:    #e4ded8;
+    --pedra-600:    #5f574e;
+    --pedra-900:    #302d2c;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+body{
+    height: 100vh;
+    background-color: var(--branco);
+    font-size: 16px;
+    font-family: texto;
+    color: var(--pedra-600);
+    counter-reset: seção;
+}
+
+.hero{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ max-width: 100%;
+}
+
+/*
+ESTILIZAÇÃO GERAL 
+*/
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 0 16px;
+    border-bottom: 2px solid var(--pedra-150);
+    font-size: 14px;
+    
+}
+section:last-child{
+    border-bottom:none;
+}
+h2{
+    font-family: principal;
+    color: var(--castanho-800);
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+ul li{
+    padding-top: 10px;
+    list-style: none;
+}
+
+
+/* 
+ESTILIZAÇÃO HERO-ONE
+*/
+h1{
+    font-family: principal;
+    color: var(--pedra-900);
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    padding-bottom: 32px;
+}
+.hero-one > .hero-one-time{
+    padding: 32px;
+    border-radius: 12px;
+    background-color: var(--pedra-150);
+    margin: 32px 0;
+}
+h3{
+    color: var(--rosa-800);
+    font-size: 1.5em; 
+}
+ul.box li.time:before {
+    content: '\2022';
+    font-size: 16px;
+    margin-right: 16px;
+    color: var(--rosa-800) /* cor da bolinha */
+}
+/* 
+ESTILIZAÇÃO DA SECTION HERO-TWO 
+*/
+ul.box li.tipos:before {
+    content: '\2022';
+    font-size: 16px;
+    margin-right: 20px;
+    color: var(--castanho-800) /* cor da bolinha */
+}
+span.contar::before{
+    counter-increment: seção;
+    content: "" counter(seção) ". ";
+    color: var(--castanho-800);
+}
+/* 
+ESTILIZAÇÃO DA SECTION HERO THREE 
+*/
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: left;
+}
+th{
+    width: 40%;
+    padding: 8px 32px;
+    font-weight: normal;
+    border-bottom: 1px solid var(--pedra-150);
+}
+th.linha{
+    width: 60%;
+    color: var(--castanho-800);
+    font-weight: bold;
+}
+/* 
+ESTILIZAÇÕ DO RODAPÉ 
+*/
+footer.rodape{
+    background-color: var(--pedra-100);
+    padding: 14px 0px;
+    width: 100%;
+}
+.rodape-attribution { 
+    font-size: 0.8rem; 
+    text-align: center; 
+}
+.rodape-attribution a { 
+    text-decoration: none;
+    color: var(--castanho-800);
+}
+.rodape-attribution a:hover{
+    text-decoration: underline;
+}

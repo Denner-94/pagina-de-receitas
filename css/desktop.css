@@ -1,0 +1,26 @@
+@media screen and (min-width: 776px){
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f3e6d8;
+        font-size: 16px;
+    }
+    .hero{
+        max-width: 1000px;
+        margin: auto;
+        padding: 32px;
+        background-color: #fbfaff; 
+    }
+    .hero > img{
+        border-radius: 10px;
+    }
+    section{
+        padding: 32px 0;
+        font-size: 1em;
+    }
+    h3{
+        font-size: 1.2em;
+    }
+    
+}
