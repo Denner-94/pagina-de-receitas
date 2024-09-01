@@ -1,8 +1,6 @@
 # Pagina de receitas
 
-<div>
-    <img align="center" scr="assets/img/capa-do-readme.md.png" alt="imagem ilustrativa da pagina de receitas feita pelo frontend mentor">
-</div>
+<div><img text-align="center" scr="assets/capa-do-readme.md.png" alt="pagina de receitas feita pelo frontend mentor"></div>
 
 - [Desafio do Frontend Mentor](https://www.frontendmentor.io)
 
@@ -31,8 +29,8 @@ em vez de
 Depois de estudar bastante consegui resolver o problema quando mudava para telas maiores. Consegui delimitar melhor o tamanho da minha hero.
 
 ## Links
-- [URL-da-solução](#)
-- [URL-do-site-ativo](#)
+- [URL-da-solução](https://github.com/Denner-94/pagina-de-receitas)
+- [URL-do-site-ativo](https://pagina-de-receitas-alpha.vercel.app/)
 
 ## Construído com
 
