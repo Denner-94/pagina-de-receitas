@@ -4,7 +4,7 @@
     <img align="center" scr="#" alt="imagem ilustrativa da pagina de receitas feita pelo frontend mentor">
 </div>
 
-[Desafio do Frontend Mentor](https://www.frontendmentor.io)
+- [Desafio do Frontend Mentor](https://www.frontendmentor.io)
 
 ## Visão Geral
 
