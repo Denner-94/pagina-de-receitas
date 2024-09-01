@@ -1,6 +1,8 @@
 # Pagina de receitas
 
-<div><img text-align="center" scr="assets/capa-do-readme.md.png" alt="pagina de receitas feita pelo frontend mentor"></div>
+<div>
+<img align="center" scr="assets/capa-do-readme.png" alt="header">
+</div>
 
 - [Desafio do Frontend Mentor](https://www.frontendmentor.io)
 
